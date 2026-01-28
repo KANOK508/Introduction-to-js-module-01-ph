@@ -51,6 +51,17 @@ else {
 // Feel free to ignore this one
 // price = isLeader === true ? price > 1000 ? price /2 : 0 : price + 1000;
 price = isLeader === true ? 
+
             price > 1000 ? 
                 price /2 : 0 
+
         : price + 1000;
+
+// if need we --- create the ternary for the internal if--else than add ... (replacing with ___position_____)
+
+// some uses---VI
+
+let userId =10
+console.log(userId)
+console.log(!!userId)
+console.log(!userId)
