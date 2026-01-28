@@ -25,3 +25,4 @@ console.log(c);
 console.log(isNaN("hello"));     // true
 console.log(isNaN(undefined));  // true
 console.log(isNaN(0 / 0));      // true
+
