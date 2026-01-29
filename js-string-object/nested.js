@@ -11,10 +11,20 @@ const college = {
     } 
 }
 
-// console.log(college.unique.color)
+console.log(college.unique.result.gpa)
+console.log(college.unique.result[`gpa`])
+
+console.log(college.unique.color)
+console.log(`-------------------so we can use like --key or map or also can access using DOT.........--------------------------------`)
+// we use dot---for go the our destinating key-----
 college.unique.result.merit = 'top top top most'
 console.log(college['unique'].result.merit)
+console.log(college.unique.result.merit)
+console.log(`---------------------------`)
 college.events[1] = '16 December'
 console.log(college.events[1])
-delete college.class;
+delete college.class;      // delete the class key with it's value 
+console.log(college)
+console.log(`----------------------`)
+delete college.name
 console.log(college)

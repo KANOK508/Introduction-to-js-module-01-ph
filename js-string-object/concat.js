@@ -9,4 +9,4 @@ console.log(fullName2);
 
 // includes
 
-console.log(last.includes('x'))
+console.log(last.includes('x'))  //  check --is it in the string 
