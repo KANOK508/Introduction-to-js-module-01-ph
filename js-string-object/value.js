@@ -12,5 +12,5 @@ person['age'] = 26;
 person['fav places'] = ['maldives', 'bali', 'pataya']
 
 const propName = 'profession';
-person[propName] = 'devops'
+person[propName] = 'devops'     //  when we want to get Value ---using Temporary variable ---don't need to use ' ' , " " , ` ` 
 console.log(person)
