@@ -1,3 +1,7 @@
+//   for of ---- Array loop 
+//   for in --- Object loop
+
+
 const fruits = ['Apple', 'Banana', 'Anar', 'Watermelon', 'Daav', 'Taal']
 // console.log(fruits[i]);
 

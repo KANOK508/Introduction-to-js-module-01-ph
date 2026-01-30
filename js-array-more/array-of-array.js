@@ -7,14 +7,36 @@ const exam_marks = [
     [78, 65, 32, 87, 54]
 ]
 
+for (const marksss of exam_marks) {
+    console.log(marksss)
+}
+console.log("-------------------------------------------------------------------")
+
 // console.log(numbers[0])
 // console.log(exam_marks[0])
 const first_class_marks = exam_marks[0]
-console.log(first_class_marks[0])
+// console.log(first_class_marks[0])
+
 // console.log(exam_marks[0][0])
 exam_marks[0][1] = 66
 exam_marks[1].pop()
+
+// console.log(exam_marks)
+for(const marks of exam_marks){
+    console.log(marks)
+}
+console.log("-------------------------------------------------------------------")
+
 exam_marks[1].push(44)
+
+// console.log(exam_marks)
+for(const marks of exam_marks){
+    console.log(marks)
+}
+
+console.log("-------------------------------------------------------------------")
+
+exam_marks[1].push(678)
 
 // console.log(exam_marks)
 for(const marks of exam_marks){
