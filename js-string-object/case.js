@@ -1,3 +1,13 @@
+/* 
+stringName.tolowerCase()
+stringName.toUpperCase()
+
+-------------------------
+
+stringName.trim()     --  remove whitespace from both side
+stringName.trimStart()     --    from left side 
+stringName.trimEnd()    -- from right side
+*/
 const school = 'RAJ UK Uttara Model School';
 
 console.log(school);
