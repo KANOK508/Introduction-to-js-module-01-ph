@@ -29,6 +29,7 @@ else {
 
 const drink = ' water';
 const liquid = 'water '
+// trim() method removes whitespace from both sides of a string
 
 if(drink.trim() === liquid.trim()){
     console.log('pani er opor nam Life');
