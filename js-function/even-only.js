@@ -32,3 +32,10 @@ function sumOfEvenNumbers(numbers) {
 const sum = sumOfEvenNumbers(numbers);
 
 console.log('sum of the even numbers is', sum);
+
+function aFun (){
+    console.log(`hi i am a funciotn `)
+    return ;
+}
+const ans= aFun();
+console.log(aFun)

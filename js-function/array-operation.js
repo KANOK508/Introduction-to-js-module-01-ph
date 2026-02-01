@@ -13,7 +13,7 @@ function sumOfNumbers(numbers) {
         console.log(number);
         sum = sum + number;
     }
-    return sum;
+    return sum;  // the return must be outside the loop --for complete all the steps of   the loop for run.... 
 }
 const numbs = [4, 2, 1, 6];
 const sum = sumOfNumbers(numbs);

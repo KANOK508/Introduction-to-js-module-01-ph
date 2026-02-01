@@ -16,8 +16,8 @@ function evenSizedString(str) {
     }
 }
 
-// evenSizedString('Dhaka');
-// evenSizedString('faka');
+console.log(evenSizedString('Dhaka'))
+console.log(evenSizedString('faka'));
 
 function doubleOrTriple(number, doDouble){
     if(doDouble === true){
@@ -40,8 +40,12 @@ function numberOfElements(numbers){
 }
 
 // numberOfElements([12, 45, 78,45,121254,4,5])
-
+const person1Object = {
+    age:23,
+    name:"kanok"
+}
 function getAge(person){
     const age = person.age;
     return age;
 }
+console.log(getAge(person1Object))
