@@ -21,5 +21,9 @@ console.log(keys);
 
 for(const key of keys){
     console.log(key, ':', mobile[key]);
+
+    // key = the first value of keys array
+    //  mobile [ky]  -- is the second value o the that key.. 
+    
     
 }
